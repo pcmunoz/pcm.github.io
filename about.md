@@ -4,15 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Name: Patrick Ceasar Munoz
+A software engineer
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Have experience in these:
+- C/C# (ASP/ASP.NET/Visual Basic)
+- Ruby (Rails)
+- PHP (Codeigniter, Symfony)
+- Javascript (Jquery, React)
+- HTML/CSS
+- Android
+- SQL(MSSQL, PostgreSQL, MySQL)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Have knowledge and/or know the basics of these:
+- Python
+- Objective -C / Swift
