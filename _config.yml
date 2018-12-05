@@ -23,7 +23,8 @@ github_username:  pcmunoz
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-swiss
+theme_color: red
 plugins:
   - jekyll-feed
 
