@@ -14,23 +14,99 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: PCMunoz Site
-email: munozpatrickceasar@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Professional Portfolio of Patrick Ceasar Munoz.
-baseurl: "/pcm" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://pcmunoz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_repo: pcm
-github_username: pcmunoz
-linkedin_username: pcmunoz
+repository: pcmunoz/pcm
 
-remote_theme: broccolini/swiss
+minimal_mistakes_skin: "neon"
+search: true
+
+remote_theme: "mmistakes/minimal-mistakes@4.16.4"
+
 
 # Build settings
 markdown: kramdown
 # theme: jekyll-swiss
-theme_color: black
+#   theme_color: black
+
+# Outputting
+# permalink: /:categories/:title/
+paginate: 3 # amount of posts to show
+paginate_path: /page:num/
+breadcrumbs: true
+timezone: Asia/Manila
+
+author:
+  name             : "Patrick Ceasar Munoz"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an amazing programmer."
+  location         : "Cebu, Manila"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: munozpatrickceasar@gmail.com
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/pcmunoz"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/pcmunoz/"
+
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: munozpatrickceasar@gmail.com
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/pcmunoz"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/pcmunoz/"
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+include:
+- _pages
+
+# Plugins (previously gems:)
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
