@@ -5,13 +5,14 @@ permalink: /about
 ---
 
 Name: Patrick Ceasar Munoz
+
 A software engineer
 
 Have experience in these:
 - C/C# (ASP/ASP.NET/Visual Basic)
 - Ruby (Rails)
 - PHP (Codeigniter, Symfony)
-- Javascript (Jquery, React)
+- Javascript (Jquery, React, React-Native, Node)
 - HTML/CSS
 - Android
 - SQL(MSSQL, PostgreSQL, MySQL)

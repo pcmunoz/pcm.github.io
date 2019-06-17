@@ -13,7 +13,13 @@
 	<meta property="og:url" content="{{ site.url }}{% if page.title %}/{{ page.url }}/{% endif %}" />
 	<meta property="og:site_name" content="{{ site.title }}" />
 	<script type="application/ld+json">
-	{"name":"{{ site.title }},"description":"{{ site.description }}","@type":"WebSite","url":"{{ site.url }}{% if page.title %}/{{ page.url }}/{% endif %}","headline":"{{ site.title }},","@context":"http://schema.org"}
+		{
+			"name":"{{ site.title }},
+			"description":"{{ site.description }}",
+			"@type":"WebSite",
+			"url":"{{ site.url }}{% if page.title %}/{{ page.url }}/{% endif %}",
+			"headline":"{{ site.title }},",
+			"@context":"http://schema.org"}
 	</script>
 	<!-- End Jekyll SEO tag -->
 	<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="{{ site.title }}" />
